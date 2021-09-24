@@ -1,0 +1,200 @@
+.form-content{
+    border: 2px solid #8f8b8b;
+    background-color: #fafafa;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 30%;
+}
+
+body{
+font-family: Arial, Helvetica, sans-serif;
+}
+
+input[type=email], input[type=password]{
+    border: 1px solid #ccc;
+    width: 98%;
+    padding-left: 10px ;
+    box-sizing: border-box;
+    margin-left: 1%;
+    margin-bottom: 10px;
+    margin-top:  5px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+
+.main-content{
+    margin-top: 10px;
+}
+
+h3{
+    text-align: center;
+}
+
+label{
+    margin-left: 2%;
+}
+
+.login-button{
+ background-color: rgb(76, 76, 233);
+ color: #fff;
+ cursor: pointer;
+ width: 30%;
+ display: block;
+ margin: auto;
+ border-radius: 30px;
+ height: 30px;
+}
+
+a{
+    text-decoration: none;
+}
+
+a>span{
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 100%;
+}
+
+.login-button:hover{
+    opacity: 0.85;
+}
+
+.forgot-link{
+ float: right;
+ margin-right: 1%;
+ color: black;
+}
+
+.forgot-link:hover{
+    color: blue;
+}
+
+.divider{
+    text-align: center;
+    border-bottom: 2px solid grey;
+    margin: -20px 0 20px;
+    line-height: 1px;
+    margin-top: 10px;
+    width: 90%;
+    margin-left: 5%;
+}
+
+.divider > span{
+    background-color: #fafafa;
+}
+
+.main-content{
+   background-color: #fafafa;
+}
+
+.remember-forgot{
+    background-color: #fafafa;
+}
+
+.iconsRowOne{
+    display: flex;
+    justify-content: center; 
+}
+
+.iconsRowOne>a{
+    width: 30%;
+}
+
+.iconsRowOne>a>span{
+    padding-left: 20%;
+}
+
+.iconsRowTwo{
+    display: flex;
+    justify-content: center; 
+}
+
+.iconsRowTwo>a{
+    width: 30%;
+}
+
+.iconsRowTwo>a>span{
+    padding-left: 20%;
+}
+
+.google-login{
+    background-image: linear-gradient(to bottom, #dd4e41, #c9453a);
+    color: white;
+    margin: 10px;
+}
+
+.github-login{
+    background-image: linear-gradient(to bottom, black, #444241);
+    color: white;
+    margin: 10px;
+}
+
+.instagram-login{
+    background-image: linear-gradient(to bottom, rgb(129, 5, 109), rgb(129, 79, 121));
+    color: white;
+    margin: 10px;
+}
+
+.facebook-login{
+    background-image: linear-gradient(to bottom, blue, rgb(98, 98, 138));
+    color: white;
+    margin: 10px;
+}
+
+.fa-facebook{
+    color: white;
+    padding: 5px;
+    border-right: 1px solid black;
+}
+
+.fa-instagram{
+    color: white;
+    padding: 5px;
+    border-right: 1px solid black;
+}
+
+.fa-google{
+    color: white;
+    padding: 5px;
+    border-right: 1px solid black;
+}
+
+.fa-github{
+    color: white;
+    padding: 5px;
+    border-right: 1px solid white;
+}
+@media screen and (max-width: 600px) {
+
+    .form-content{
+        margin: 0 10%;
+    }
+    .iconsRowOne{
+        display: flex;
+        flex-direction: column;
+        width: 200%;
+        margin-left: 20%;
+    }
+
+    .iconsRowTwo{
+        display: flex;
+        flex-direction: column;
+        width: 200%;
+        margin-left: 20%;
+    }
+
+    .login-button{
+        width: 90%;
+    }
+
+    .remember-forgot{
+        font-size: small;
+    }
+
+    .remember-forgot > a, .remember-forgot >input[type=checkbox]{
+        margin-top: 5px;
+    }
+}
